@@ -11,8 +11,7 @@ disributes various DIY craft boxes to its subscribers on a specified basis.
 * Personalized box creation
 
 ### APIs
-Firebase
-* Uses:
-* * User Authentication
-* * User data storage
-* * Product data storage
+* Firebase:
+ * User Authentication
+ * User data storage
+ * Product data storage
