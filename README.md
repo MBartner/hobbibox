@@ -3,14 +3,14 @@
 HobbiBox is a mobile Android application created for a pseudo business that 
 disributes various DIY craft boxes to its subscribers on a specified basis.
 
-### Features
+#### Features
 * Simple, easy to use user interface
 * Refined box suggestions corresponding to user interests
 * Real time queue and history of past and future purchases
 * Profile customization
 * Personalized box creation
 
-### APIs
+#### APIs
 * Firebase:
   * User Authentication
   * User data storage
