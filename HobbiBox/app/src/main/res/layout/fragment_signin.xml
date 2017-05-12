@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/user_name_hint"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:id="@+id/user_name_edit_text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/password_hint"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:id="@+id/password_edit_text" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/signin_button"
+            android:textColor="@color/white"
+            android:background="@color/signinButton"
+            android:id="@+id/submit_signin_button" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel_button"
+            android:textColor="@color/white"
+            android:background="@color/cancelButton"
+            android:id="@+id/signin_cancel"/>
+
+    </LinearLayout>
+
+</LinearLayout>

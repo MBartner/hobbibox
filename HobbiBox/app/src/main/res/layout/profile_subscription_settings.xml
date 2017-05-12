@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/subscription_settings_relative_layout">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profile_subscription_settings_page_rel_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize">
+
+
+    <TextView
+        android:id="@+id/profile_subscription_settings_title_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subscription_settings"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="36dp"
+        android:layout_marginTop="18dp"
+        android:layout_centerHorizontal="true"/>
+
+    <RelativeLayout
+        android:id="@+id/profile_subscription_settings_radiogroup_rel_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_subscription_settings_title_textview"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="10dp">
+
+        <RadioGroup
+            android:id="@+id/profile_sub_settings_radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false">
+
+            <RadioButton
+                android:id="@+id/profile_subscription_settings_weekly_radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weekly_radioButton"
+                android:checked="true"
+                android:enabled="false"/>
+
+            <RadioButton
+                android:id="@+id/profile_subscription_settings_biweekly_radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/biweekly_radioButton"
+                android:enabled="false"/>
+
+            <RadioButton
+                android:id="@+id/profile_subscription_settings_monthly_radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/monthly_radioButton"
+                android:enabled="false"/>
+
+            <RadioButton
+                android:id="@+id/profile_subscription_settings_bimonthly_radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bimonthly_radioButton"
+                android:enabled="false"/>
+
+            <RadioButton
+                android:id="@+id/profile_subscription_settings_trimonthly_radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/trimonthly_radioButton"
+                android:enabled="false"/>
+
+            <RadioButton
+                android:id="@+id/profile_subscription_settings_halfyear_radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/halfyear_radioButton"
+                android:enabled="false"/>
+
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentEnd="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp">
+                <TextView
+                    android:id="@+id/profile_sub_settings_weekly_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sub_weekly_price"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp">
+
+                <TextView
+                    android:id="@+id/profile_sub_settings_biweekly_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sub_biweekly_price"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp">
+
+                <TextView
+                    android:id="@+id/profile_sub_settings_monthly_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sub_monthly_price"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp">
+
+                <TextView
+                    android:id="@+id/profile_sub_settings_bimonthly_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sub_bimonthly_price"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp">
+
+                <TextView
+                    android:id="@+id/profile_sub_settings_trimonthly_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sub_trimonthly_price"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp">
+
+                <TextView
+                    android:id="@+id/profile_sub_settings_halfyear_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sub_halfyear_price"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/profile_sub_settings_change_confirm_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_confirm_change"
+        android:textColor="@color/white"
+        android:background="@color/confirmButton"
+        android:layout_below="@id/profile_subscription_settings_radiogroup_rel_layout"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/profile_sub_settings_edit_rel_layout"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true">
+
+        <ImageView
+            android:id="@+id/profile_sub_settings_edit_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_edit_green_24dp"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+
+
+    </RelativeLayout>
+</RelativeLayout>

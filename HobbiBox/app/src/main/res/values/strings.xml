@@ -1,0 +1,225 @@
+<resources>
+    <string name="app_name">HobbiBox</string>
+
+
+    <!--strings for LoginActivity UI (not signed in)-->
+    <string name="signin_button">Sign In</string>
+    <string name="register_button">Register</string>
+    <string name="user_name_hint">User Name</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="error_null">Please enter a username and password.</string>
+    <string name="diff_passwords">Passwords do not match.</string>
+    <string name="error_email">Invalid email.</string>
+    <string name="error_password">Invalid password.</string>
+    <string name="invalid_signin">Username and/or Password incorrect.</string>
+    <string name="invalid_register">Registration failed.</string>
+    <string name="valid_signin">Signed In: </string>
+    <string name="create_user">Created user: </string>
+    <string name="cancel_button">Cancel</string>
+    <string name="welcome">Welcome</string>
+    <string name="packing_boxes_text_view">Packing boxes...</string>
+
+    <!--strings for About page-->
+    <string name="company_name">HobbiBox, Inc.</string>
+    <string name="location_made">Made in College Park, Maryland</string>
+    <string name="customer_support">Customer Support</string>
+    <string name="support_email">hobbiboxapp@gmail.com</string>
+    <string name="terms_conditions">Terms and Conditions</string>
+    <string name="terms">Have fun!</string>
+
+    <!--strings for Profile Fragment-->
+    <string name="profile_title">Profile</string>
+    <string name="profile_username">Username</string>
+    <string name="profile_phone_number">Phone Number</string>
+    <string name="profile_phone_number_hint">(000) 000 - 0000</string>
+    <string name="shipping_info">Shipping Information</string>
+    <string name="profile_street_address1">Street Address 1</string>
+    <string name="profile_street_address2">Street Address 2</string>
+    <string name="profile_city_town">City/Town</string>
+    <string name="profile_state_province">State/Province</string>
+    <string name="profile_country">Country</string>
+    <string name="profile_zip_code">Zipcode</string>
+    <string name="billing_info">Billing Information</string>
+    <string name="payment_info">Payment Information</string>
+    <string name="card_used_payment">Card Used for Payment</string>
+    <string name="name_on_card">Name on Card</string>
+    <string name="card_number">Card Number</string>
+    <string name="card_number_hint">0000-0000-0000-0000</string>
+    <string name="security_code">Security Code</string>
+    <string name="security_code_hint">000</string>
+    <string name="expiration_date">Expiration Date</string>
+    <string name="card_company">Card Company</string>
+    <string name="card_type">Choose your card type:</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="debit_card">Debit Card</string>
+    <string name="add_payment_method">Add Payment Method</string>
+    <string name="subscription_settings">Subscription Settings</string>
+    <string name="weekly_radioButton">Once Every Week</string>
+    <string name="sub_weekly_price">$9.99</string>
+    <string name="biweekly_radioButton">Once Every 2 Weeks</string>
+    <string name="sub_biweekly_price">$14.99</string>
+    <string name="monthly_radioButton">Once Every Month</string>
+    <string name="sub_monthly_price">$19.99</string>
+    <string name="bimonthly_radioButton">Once Every 2 Months</string>
+    <string name="sub_bimonthly_price">$24.99</string>
+    <string name="trimonthly_radioButton">Once Every 3 Months</string>
+    <string name="sub_trimonthly_price">$29.99</string>
+    <string name="halfyear_radioButton">Once Every 6 Months</string>
+    <string name="sub_halfyear_price">$34.99</string>
+    <string name="profile_interests">Box Interests</string>
+    <string name="profile_interests_delete_textview">Select the Interests you wish to Remove</string>
+    <string name="profile_first_name">First Name</string>
+    <string name="profile_last_name">Last Name</string>
+    <string name="profile_business_profile">Business</string>
+    <string name="profile_create_box">Create New Box</string>
+    <string name="profile_get_verified">Get Verified</string>
+    <string name="business_verified">Verified</string>
+    <string name="business_info">Box with Us</string>
+    <string name="verification_confirmation">Your account has been Verified.</string>
+    <string name="weekly">Weekly</string>
+    <string name="biweekly">Bi-Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="bimonthly">Bi-Monthly</string>
+    <string name="quarterly">Quarterly</string>
+    <string name="semiAnnually">Semi-Annually</string>
+
+    <string-array name="expiration_month_array">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="expiration_year_array">
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+        <item>2028</item>
+        <item>2029</item>
+        <item>2030</item>
+    </string-array>
+
+
+    <string name="profile_sign_out_button">Sign Out</string>
+    <string name="profile_edit">Edit</string>
+    <string name="profile_confirm_change">Confirm</string>
+
+    <!--strings for History Fragment-->
+    <string name="history_title">History</string>
+
+    <!--strings for Suggestions Fragment-->
+    <string name="suggestions_title">Suggestions</string>
+
+    <!--strings for Queue Fragment-->
+    <string name="queue_title">Queue</string>
+
+    <!--strings for Categories Fragment-->
+    <string name="categories_title">Categories</string>
+    <string name="select_interests">Select your interests. These can be edited later.</string>
+    <string name="add_interests">Add interests</string>
+    <string name="select_interests_text_view">Tap Your Interests!</string>
+
+    <!--strings for Verify Fragment-->
+    <string name="verify_title">Get Verified</string>
+    <string name="verify_name_title">Full Name *</string>
+    <string name="verify_name_hint">John Doe</string>
+    <string name="verify_dob_title">Date of Birth *</string>
+    <string name="verify_month_hint">MM</string>
+    <string name="verify_day_hint">DD</string>
+    <string name="verify_year_hint">YYYY</string>
+    <string name="verify_addr_title">Personal Address *</string>
+    <string name="verify_addr_hint">123 Hobbibox Ct.</string>
+    <string name="verify_city_title">City *</string>
+    <string name="verify_city_hint">New York City</string>
+    <string name="verify_state_title">State *</string>
+    <string name="verify_state_hint">New York</string>
+    <string name="verify_zip_title">Zip *</string>
+    <string name="verify_zip_hint">10000</string>
+    <string name="verify_ssn_title">Social Security Number *</string>
+    <string name="verify_ssn_part1_hint">###</string>
+    <string name="verify_ssn_part2_hint">##</string>
+    <string name="verify_ssn_part3_hint">####</string>
+    <string name="verify_company_title">Company</string>
+    <string name="verify_company_hint">Example Inc</string>
+    <string name="verify_apply_button">Apply</string>
+    <string name="verify_accept_terms">I agree to the Terms of Service</string>
+    <string name="verify_review_terms_button">Review</string>
+
+    <string name="verify_error_terms">Please accept terms of service.</string>
+    <string name="verify_error_incomplete">Please fill in all required fields.</string>
+
+
+    <string name="description_title">Box Description</string>
+    <string name="category_title">Box Category</string>
+
+
+    <!--And for verify, just have a company name, business product (box) category,
+    number of units (if below like 50 then decline verification), aaaaand idk
+    business email? Not sure if the latter is really that necessary.
+    And we would ideally have all of their financial info already.-->
+
+    <!--strings for Create Box Fragment-->
+    <string name="create_box_name">Box Name</string>
+    <string name="create_company_name">Company Name</string>
+    <string name="create_price">Price</string>
+    <string name="create_description">Description</string>
+    <string name="create_category">Category</string>
+    <string name="create_Image">Image</string>
+    <string name="create_details">Details</string>
+    <string name="create_save_button">Save</string>
+    <string name="create_cancel_button">Cancel</string>
+    <string name="attachment_label">Attachment</string>
+    <string name="create_box">Create Box</string>
+    <string name="error_fill">Please fill out all fields.</string>
+
+    <string-array name="box_category_array">
+        <item>Adventuring</item>
+        <item>Art</item>
+        <item>Cooking</item>
+        <item>Crafts</item>
+        <item>Electronics</item>
+        <item>Entertainment</item>
+        <item>Exercise</item>
+        <item>Financials</item>
+        <item>Fishing</item>
+        <item>Games</item>
+        <item>Learning</item>
+        <item>Modelling</item>
+        <item>Self-Improvement</item>
+        <item>Travel</item>
+        <item>Vehicles</item>
+    </string-array>
+
+    <!-- strings for box template -->
+    <string name="by_company">By </string>
+    <string name="box_add_to_queue">Add To Queue</string>
+    <string name="box_buy_now">Buy Now</string>
+
+    <!-- strings for history item template -->
+    <string name="date_delivered">Date Delivered:</string>
+    <string name="order_again">Order Again</string>
+    <string name="expected_delivery">Expected Delivery:</string>
+    <string name="remove_queue">Remove</string>
+
+
+    <string name="terms_of_service">By accepting we have complete possession of your soul and everything you have ever done in past and present. Also, your boxes must be cool.</string>
+
+</resources>

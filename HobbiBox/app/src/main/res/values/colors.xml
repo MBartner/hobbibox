@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1a7000</color>
+    <color name="colorPrimaryDark">#0e5400</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#FF616161</color>
+    <color name="lightGrey">#d2d2d2</color>
+    <color name="black">#FF000000</color>
+    <color name="blue">#FF2240A1</color>
+    <color name="red">#FFA12233</color>
+
+
+
+    <!--> Colors for LoginActivity <-->
+    <color name="signinButton">#FF4E963F</color>
+    <color name="registerButton">#FFDE4121</color>
+    <color name="cancelButton">#FF808080</color>
+
+    <!--> Colors for ProfileFragment <-->
+    <color name="signoutButton">#FFDE3421</color>
+    <color name="signoutButtonDark">#FFAC2819</color>
+    <color name="createBox">#FF4E963F</color>
+    <color name="createBoxDark">#294e21</color>
+    <color name="getVerified">#FF2170DE</color>
+    <color name="getVerifiedDark">#15488f</color>
+
+    <!--> Colors for CategoriesFragment <-->
+    <color name="addInterestsButton">#FF25BF7C</color>
+    <color name="addInterestsButtonDark">#1a8758</color>
+    <color name="confirmButton">#FF25BF7C</color>
+    <color name="confirmButtonDark">#1a8758</color>
+    <color name="addPaymentButton">#FF25BF7C</color>
+    <color name="addPaymentButtonDark">#1a8758</color>
+
+    <!-- Colors for VerifyFragment -->
+    <color name="applyButton">#FF4E963F</color>
+    <color name="applyButtonDark">#FF315E28</color>
+
+    <!-- Colors for Box Template -->
+    <color name="boxBuyNow">#FF4E963F</color>
+    <color name="boxAddToQueue">#FF2170DE</color>
+    <color name="boxBuyNowDark">#35642b</color>
+    <color name="boxAddToQueueDark">#174c94</color>
+
+    <!-- Color for Highlighting Boxes and Interests in feeds -->
+    <color name="highlight">#FF4E963F</color>
+
+    <!-- Color for Queue Remove Box Button -->
+    <color name="removeQueueButton">#FFDE3421</color>
+    <color name="removeQueueButtonDark">#9c2518</color>
+
+</resources>

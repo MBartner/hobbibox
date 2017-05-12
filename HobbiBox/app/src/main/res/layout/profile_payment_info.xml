@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/payment_info_relative_layout">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profile_payment_info_page_rel_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize">
+
+
+    <TextView
+        android:id="@+id/profile_payment_info_title_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/payment_info"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="36dp"
+        android:layout_marginTop="18dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ScrollView
+        android:id="@+id/profile_payment_info_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_payment_info_title_textview">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:id="@+id/profile_payment_info_page_lin_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp" >
+
+
+                    <RelativeLayout
+                        android:id="@+id/profile_payment_card_type_rel_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp">
+
+
+                        <TextView
+                            android:id="@+id/profile_payment_card_type_textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/card_type"
+                            android:textColor="@color/grey"
+                            android:textSize="16sp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="10dp"/>
+
+
+                        <RadioGroup
+                            android:id="@+id/profile_payment_card_type_radiogroup"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/profile_payment_card_type_textview"
+                            android:enabled="false">
+
+                            <RadioButton
+                                android:id="@+id/profile_payment_credit_card_button"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/credit_card"
+                                android:textColor="@color/grey"
+                                android:layout_marginEnd="8dp"
+                                android:layout_weight="1"
+                                android:checked="true"
+                                android:enabled="false"/>
+
+                            <RadioButton
+                                android:id="@+id/profile_payment_debit_card_button"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/debit_card"
+                                android:textColor="@color/grey"
+                                android:layout_marginStart="8dp"
+                                android:layout_weight="1"
+                                android:enabled="false"/>
+
+                        </RadioGroup>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/profile_payment_card_company_rel_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:id="@+id/profile_payment_card_company_textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/card_company"
+                            android:textColor="@color/grey"
+                            android:textSize="16sp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="10dp"/>
+
+                        <EditText
+                            android:id="@+id/profile_payment_card_company_edit_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/card_company"
+                            android:layout_below="@id/profile_payment_card_company_textview"
+                            android:enabled="false" />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/profile_payment_nameOnCard_rel_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/profile_payment_nameOnCard_textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/name_on_card"
+                            android:textColor="@color/grey"
+                            android:textSize="16sp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="10dp"/>
+
+                        <EditText
+                            android:id="@+id/profile_payment_nameOnCard_edit_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/name_on_card"
+                            android:layout_below="@id/profile_payment_nameOnCard_textview"
+                            android:enabled="false" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/profile_payment_cardnumber_rel_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:id="@+id/profile_payment_cardnumber_textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/card_number"
+                            android:textColor="@color/grey"
+                            android:textSize="16sp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="10dp"/>
+
+                        <EditText
+                            android:id="@+id/profile_payment_cardnumber_edit_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:maxLength="16"
+                            android:hint="@string/card_number_hint"
+                            android:layout_below="@id/profile_payment_cardnumber_textview"
+                            android:enabled="false"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/profile_payment_security_code_rel_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:id="@+id/profile_payment_security_code_textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/security_code"
+                            android:textColor="@color/grey"
+                            android:textSize="16sp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="10dp"/>
+
+                        <EditText
+                            android:id="@+id/profile_payment_security_code_edit_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:maxLength="3"
+                            android:hint="@string/security_code_hint"
+                            android:layout_below="@id/profile_payment_security_code_textview"
+                            android:enabled="false"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/profile_payment_expiration_date_rel_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:id="@+id/profile_payment_expiration_date_textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/expiration_date"
+                            android:textColor="@color/grey"
+                            android:textSize="16sp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="10dp"/>
+
+                        <LinearLayout
+                            android:id="@+id/profile_payment_expiration_date_lin_layout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/profile_payment_expiration_date_textview">
+
+                            <Spinner
+                                android:id="@+id/profile_payment_expiration_date_month_spinner"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                            </Spinner>
+
+                            <Spinner
+                                android:id="@+id/profile_payment_expiration_date_year_spinner"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                            </Spinner>
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/profile_payment_info_change_confirm_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/profile_confirm_change"
+                    android:textColor="@color/white"
+                    android:background="@color/confirmButton"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:id="@+id/profile_payment_info_edit_rel_layout"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true">
+
+        <ImageView
+            android:id="@+id/profile_payment_info_edit_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_edit_green_24dp"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "870835136804",
+    "firebase_url": "https://hobbibox-587c9.firebaseio.com",
+    "project_id": "hobbibox-587c9",
+    "storage_bucket": "hobbibox-587c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870835136804:android:feef56e5a06db545",
+        "android_client_info": {
+          "package_name": "hobbibox.hobbibox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870835136804-3qeprl9q75eveaeejoucqhvq451ttanb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsE9GZqeAf5jPldkKNWtlz--qpjFyvjLQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

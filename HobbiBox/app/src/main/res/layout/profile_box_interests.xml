@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/box_interests_relative_layout">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profile_interests_page_rel_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize">
+
+    <TextView
+        android:id="@+id/profile_interests_title_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_interests"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="36dp"
+        android:layout_marginTop="18dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/profile_interests_delete_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_interests_delete_textview"
+        android:textColor="@color/grey"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/profile_interests_title_textview"
+        android:visibility="gone"/>
+
+
+    <ListView
+        android:id="@+id/profile_interests_list_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_interests_delete_textview"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="10dp">
+
+
+    </ListView>
+
+    <Button
+        android:id="@+id/profile_interests_change_confirm_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_confirm_change"
+        android:textColor="@color/white"
+        android:background="@color/confirmButton"
+        android:layout_below="@id/profile_interests_list_listview"
+        android:visibility="gone"/>
+
+    <!--> <Button
+         android:id="@+id/profile_phone_number_edit_button"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/profile_edit"/> <-->
+
+    <RelativeLayout
+        android:id="@+id/profile_interests_edit_rel_layout"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true">
+
+        <ImageView
+            android:id="@+id/profile_interests_edit_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_edit_green_24dp"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+
+
+    </RelativeLayout>
+</RelativeLayout>

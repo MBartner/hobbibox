@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/history_box_item"
+    android:layout_width="match_parent"
+    android:layout_height="96dp">
+
+    <ImageView
+        android:id="@+id/history_box_image_preview"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@id/history_box_image_preview"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+
+
+
+        <TextView
+            android:id="@+id/history_item_box_name"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:text=""
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/history_item_box_company_name"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:text=""
+            android:textSize="14sp"
+            android:textColor="@color/grey"
+            android:layout_marginBottom="4dp"
+            android:layout_below="@id/history_item_box_name" />
+
+        <TextView
+            android:id="@+id/history_item_box_price"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:text=""
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_below="@id/history_item_box_company_name"/>
+
+        <TextView
+            android:id="@+id/history_date_delivered_title"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:text="@string/date_delivered"
+            android:textSize="14sp"
+            android:textColor="@color/grey"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/history_date_delivered"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:text=""
+            android:textSize="14sp"
+            android:textColor="@color/grey"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/history_date_delivered_title"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightGrey"
+        android:layout_alignParentBottom="true">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/history_item_highlight"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/highlight"
+        android:alpha="0.5"
+        android:visibility="gone">
+
+    </RelativeLayout>
+
+</RelativeLayout>

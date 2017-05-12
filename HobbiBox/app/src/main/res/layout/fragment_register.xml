@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/user_name_hint"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:id="@+id/new_user_name_edit_text" />
+
+        <EditText
+            android:id="@+id/new_password_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password_hint"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/confirm_password_hint"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:id="@+id/confirm_password_edit_text"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/signup_button"
+            android:textColor="@color/white"
+            android:background="@color/registerButton"
+            android:id="@+id/submit_register_button" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel_button"
+            android:textColor="@color/white"
+            android:background="@color/cancelButton"
+            android:id="@+id/register_cancel"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
