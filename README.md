@@ -1,6 +1,6 @@
 # HobbiBox
 
-HobbiBox is a mobile Android application intended for a pseudo business that disributes various DIY craft boxes to its subscribers on a specified basis.
+HobbiBox is a mobile Android application intended for a pseudo business that distributes various DIY craft boxes to its subscribers on a specified basis.
 
 #### Features
 * Simple, easy to use user interface
